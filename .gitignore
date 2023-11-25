@@ -38,3 +38,5 @@ Makefile*
 *.user
 /libfaac/win32_ver.h
 /libfaac/faac.pc
+/libfaac/Debug
+/libfaac/Release

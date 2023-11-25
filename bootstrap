@@ -5,7 +5,7 @@ autoheader
 if test "`uname -s`" = Darwin; then
     glibtoolize --automake
 else
-    libtoolize --automake
+    libtoolize -c --automake
 fi
-automake --add-missing
+automake -c --add-missing
 autoconf
